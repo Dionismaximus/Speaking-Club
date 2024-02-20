@@ -2,23 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* General styles */
+* {
+    margin: 0;
+}
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
     font-family: 'Lato', sans-serif;
-    border: 10px solid grey;
 }
 
 h2, h3 {
-    background-color: bisque;
+    background-image: linear-gradient(to right bottom, #220113, #3e142b, #5e2445, #7f3662, #a24981);
     font-family: 'Montserrat', sans-serif;
+    color: #FFF6FB; 
+    text-shadow: rgb(122, 121, 121) 1px 2px;
 }
 
 /* Header */
 
 #title {
-    font-size: 300%;
-    line-height: 70px;
+    font-size: 150%;
+    height: 10vh;
 }

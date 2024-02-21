@@ -121,6 +121,29 @@ p {
     margin-bottom: 15px;
 }
 
+/* Button join us */
+#button-joinus {
+    background-color: rgb(97, 179, 179);
+    text-align: center;
+    display: flex;
+    width: 50%;
+    height: 55px;
+    margin-left: 25%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 3px 5px rgb(68, 68, 68);
+    
+    
+}
+#button-joinus a {
+    text-decoration: none;
+    color: #FFF6FB;
+    font-size: 120%;
+
+}
+
 
 /* Footer */
 footer {

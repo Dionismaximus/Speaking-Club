@@ -34,16 +34,20 @@ header {
     box-shadow: 0 2px 4px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 header a {
     text-decoration: none;
     color: inherit;
 }
 
+#symbol {
+    width: 10vh;
+}
+
 #title {
-    font-size: 150%;
-    height: 10vh;
+    text-align: center;
+    padding-top: 20px;
 }
 .active {
     border-bottom: 1px solid;
@@ -82,11 +86,24 @@ nav {
 
 /* Main */
 main {
-    background-color: aqua;
+    background-image: linear-gradient(to right bottom, #220113, #3e142b, #5e2445, #7f3662, #a24981);
     /* Take all the space and push footer down */
     flex: 1 0 auto;
+    margin-top: 60px;
+}
+#main-picture {
+    background: url(../images/Main-photo.jpg) no-repeat center/cover;
+    width: 94%;
+    height: 200px;
+    z-index: 99;
+    margin: 0 3%;
 }
 
+
+
+
+/* Footer */
 footer {
-    background-color: orange;
+    background-color: rgb(255, 102, 0);
 }
+

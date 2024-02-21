@@ -32,6 +32,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 header a {
     text-decoration: none;
@@ -47,12 +50,34 @@ header a {
 }
 
 /* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 2px 4px;
+    padding: 0 1rem;
+    left: 0;
+    display: none;
+    top: 100%;
+}
+
 #menu {
     font-size: 130%;
     list-style-type: none;
 }
 #menu > li {
     margin-bottom: 1rem;
+}
+
+/* Nav-toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main */

@@ -149,11 +149,11 @@ p {
 }
 .review-block {
     display: flex;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .review-block p {
     font-size: 80%;
-    margin: 0 10px;
+    margin: 0 5px 0 10px;
 }
 
 .review-name-block {

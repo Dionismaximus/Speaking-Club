@@ -21,6 +21,7 @@ h2, h3 {
     font-family: 'Montserrat', sans-serif;
     color: #FFF6FB; 
     text-shadow: rgb(122, 121, 121) 1px 2px;
+    text-align: center;
 }
 
 /* Header */
@@ -47,7 +48,8 @@ header a {
 
 #title {
     text-align: center;
-    padding-top: 20px;
+    padding: 20px 0 10px;
+
 }
 .active {
     border-bottom: 1px solid;
@@ -90,6 +92,12 @@ main {
     /* Take all the space and push footer down */
     flex: 1 0 auto;
     margin-top: 60px;
+    color: #FFF6FB;
+}
+p {
+    color: inherit;
+    margin: 10px;
+    font-size: 90%;
 }
 #main-picture {
     background: url(../images/Main-photo.jpg) no-repeat center/cover;
@@ -99,7 +107,19 @@ main {
     margin: 0 3%;
 }
 
-
+/* Motivation section */
+#motivation {
+    margin: 20px;
+}
+#motivation h3 {
+    padding-bottom: 15px;
+}
+#motivation p {
+    margin: 10px 0;
+}
+#motivation > div {
+    margin-bottom: 15px;
+}
 
 
 /* Footer */

@@ -169,6 +169,29 @@ p {
     margin-right: 5px;
 }
 
+/* Schedule */
+table {
+	width: 80%;
+    margin-left:10%;
+}
+
+tr {
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+}
+
+tr, th, td {
+	text-align: center;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+.innactive-day {
+    color: rgb(156, 156, 156);
+}
+
 
 /* Footer */
 footer {

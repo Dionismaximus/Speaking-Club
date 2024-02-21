@@ -171,6 +171,15 @@ p {
 
 /* Schedule */
 
+#schedule {
+    margin-bottom: 20px;
+}
+
+#schedule img {
+    width: 94%;
+    margin: 0 3%;
+}
+
 table {
 	width: 80%;
     margin-left:10%;
@@ -194,14 +203,30 @@ th, td {
     color: rgb(156, 156, 156);
 }
 
+
 /* Contacts */
 .contacts {
-    margin-left: 3px;
+    margin: 0 0 7px 3px;
 }
 
 
 /* Footer */
 footer {
-    background-color: rgb(255, 102, 0);
+    background-image: linear-gradient(to top, #000000, #150309, #210511, #2b0718, #36041e);
+    text-align: center;
+    color: #FFF6FB;
+}
+
+#social-networks {
+    text-align: center;
+    padding:20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+}
+#social-networks i {
+    font-size:160%;
+    padding: 5%;
+    color: #FFF6FB;
 }
 

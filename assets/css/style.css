@@ -168,6 +168,9 @@ p {
     margin-top: 5px;
     margin-right: 5px;
 }
+.review-block a {
+    color: #e4d999;
+}
 
 /* Schedule */
 
@@ -228,13 +231,4 @@ footer {
     font-size:160%;
     padding: 5%;
     color: #FFF6FB;
-}
-
-
-#test {
-    width:100%;
-    height: 200px;
-    border: 3px solid grey;
-    z-index: 99;
-    background-color:rgb(97, 179, 179);
 }

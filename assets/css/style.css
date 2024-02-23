@@ -223,6 +223,17 @@ th, td {
     background: url(../images/join-us-photo.jpg) center/cover;
     width: 100%;
 }
+#join-us-form {
+    width: 80%;
+    margin: 10%;
+    background-color: rgba(34,1,19, 0.6);
+    border-radius: 5%;
+    padding: 20px;
+}
+.radio-button {
+    font-size: 85%;
+}
+
 
 /* Footer */
 footer {

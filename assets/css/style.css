@@ -260,7 +260,7 @@ th, td {
 
 /* Footer */
 footer {
-    background-image: linear-gradient(to left top, #685a64, #4e434a, #362e32, #1e1a1c, #000000);
+    background-image: linear-gradient(to top, #5c0b37, #460e29, #310f1d, #1e0a11, #000000);
     text-align: center;
     color: #FFF6FB;
 }

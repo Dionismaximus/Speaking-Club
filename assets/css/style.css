@@ -157,7 +157,7 @@ p {
 }
 
 .review-name-block {
-    border-right: 1px solid white;
+    border-right: 1px solid #FFF6FB;
     flex-shrink: 2;
     text-align: center;
     margin-bottom: 15px;
@@ -232,6 +232,24 @@ th, td {
 }
 .radio-button {
     font-size: 85%;
+}
+.input-field {
+    background: transparent;
+    border-radius: 3px;
+    color: #FFF6FB;
+    border: 1px solid #FFF6FB;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    height: 22px;
+}
+#submit-button {
+    padding: 7px 45px;
+    margin-left: 20px;
+    font-size: 120%;
+    background-image: linear-gradient(to right bottom, #414141, #685a64, #9a7379, #c6917e, #dcba82);
+    color: #FFF6FB;
+    border-radius: 5px;
+    box-shadow: 5px 4px 5px rgb(28, 25, 25);
 }
 
 

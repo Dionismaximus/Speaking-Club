@@ -212,8 +212,15 @@ th, td {
     margin: 0 0 7px 3px;
 }
 
-/* Our place */
+/* Our place page*/
 .our-place-picture {
+    width: 100%;
+}
+
+
+/* Join us page */
+#join-us-picture {
+    background: url(../images/join-us-photo.jpg) center/cover;
     width: 100%;
 }
 

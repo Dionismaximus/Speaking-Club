@@ -28,20 +28,34 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="our_place.html">Our place</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-                <li><a href="">Join us</a></li>
+                <li><a href="index.html#contacts">Contacts</a></li>
+                <li><a href="join_us.html" class="active">Join us</a></li>
             </ul>
         </nav>
     </header>
     <!-- Main -->
-    <main>
-    <div id="title">
-    <h2>Join us</h2>
-    </div>
-    <div id="our-place-picture">
-    </div>
+    <main id="join-us-picture">
+    <h2 style="padding: 20px 0 5px 0;"><i class="fa-solid fa-user-plus"></i> Join us</h2>
+    <p>Fill out the form and become a full member of our English Speaking club!</p>
+    <form id="join-us-form" action="https://formdump.codeinstitute.net" method="POST">
+        <label for="name">First Name</label>
+        <input id="name" type="text" name="first_name" required>
+        <br>
+        <label for="last_name">Last Name</label>
+        <input id="last_name" type="text" name="last_name" required>
+        <br>
+        <label for="phone_number">Phone number</label>
+        <input id="phone_number" type="tel" placeholder="e.g. 087-12-34-567" name="phone_number" required>
+        <br>
+        <label for="email">Email address</label>
+        <input id="email" type="email" name="email_address" required>
+        <br>
+
+        <button type="submit">Join</button>
+
+    </form>
 
     
 

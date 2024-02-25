@@ -305,4 +305,23 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+    /* Main */
+    #main-picture {
+        height: 340px;
+    }
+
+    #motivation {
+        display: flex;
+
+    }
+    #first-motivation-block {
+        margin: 0 20px;
+
+    }
+    #second-motivation-block {
+        margin: 0 20px;
+    }
+    h3 {
+        font-size: 120%;
+    }
 }

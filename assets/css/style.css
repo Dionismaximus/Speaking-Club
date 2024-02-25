@@ -53,18 +53,22 @@ header a {
 }
 .active {
     border-bottom: 1px solid;
+    color: #fdf6eb;
+    font-size:110%;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: white;
-    width: 100%;
-    box-shadow: 0 2px 4px;
+    background-image: linear-gradient(to left bottom, #dcba82, #c6917e, #9a7379, #685a64, #414141);
+    width: 80%;
+    box-shadow: 0 2px 4px black;
     padding: 0 1rem;
-    left: 0;
+    right: 0;
     display: none;
     top: 100%;
+    color: #FFF6FB;
+    text-shadow: 2px 2px rgb(109, 109, 109);
 }
 
 #menu {
@@ -91,7 +95,7 @@ main {
     background-image: linear-gradient(to right bottom, #220113, #3e142b, #5e2445, #7f3662, #a24981);
     /* Take all the space and push footer down */
     flex: 1 0 auto;
-    margin-top: 60px;
+    margin-top: 9vh;
     color: #FFF6FB;
 }
 p {
@@ -278,3 +282,29 @@ footer {
     color: #FFF6FB;
 }
 
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        background-image: none;
+        background-color: inherit;
+        color: #FFF6FB;
+        text-shadow: 2px 2px rgb(107, 107, 107);
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+}

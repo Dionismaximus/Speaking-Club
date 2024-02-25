@@ -344,6 +344,9 @@ footer {
     #second-motivation-block {
         margin: 0 20px;
     }
+    h2 {
+        font-size: 170%;
+    }
     h4, h5 {
         font-size: 110%;
         margin-top: 15px;

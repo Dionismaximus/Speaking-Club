@@ -139,22 +139,25 @@ p {
     background-color: rgb(97, 179, 179);
     text-align: center;
     display: flex;
-    width: 50%;
+    width: 60%;
     height: 45px;
-    margin-left: 25%;
+    margin-left: 20%;
     text-align: center;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    box-shadow: 5px 4px 5px rgb(68, 68, 68);
-    margin-bottom: 30px;
-    margin-top: 20px;
+    box-shadow: 4px 7px 10px rgb(44, 44, 44);
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 #button-joinus a {
     text-decoration: none;
     color: #FFF6FB;
     font-size: 120%;
-
+}
+#button-joinus:hover {
+    box-shadow: none;
+    
 }
 
 /* Section reviews */
@@ -326,6 +329,12 @@ footer {
         align-self: flex-start;
     }   
 
+    /* Joinus-button */
+    #button-joinus {
+        width: 30%;
+        margin-left: 35%;
+    }
+
     /* Contacts block */
     #image-block {
         height: 350px;
@@ -452,6 +461,12 @@ footer {
     }
     #motivation {
         margin: 0 50px;
+    }
+
+    /* Joinus-button */
+    #button-joinus {
+        width: 20%;
+        margin-left: 40%;
     }
 
     /* A shared section for schedule, image and contacts. */

@@ -382,4 +382,29 @@ footer {
         margin-left: 35%;
     }
 
+    /* Page our place */
+    .right-side {
+        display: flex;
+        text-align: end;
+    }
+    .right-side > p {
+        border-right: 1px solid #FFF6FB;
+        align-self: flex-start;
+        padding-right: 7px;
+    }
+    .left-side {
+        display: flex;
+        text-align: start;
+    }
+    .left-side > p {
+        border-left: 1px solid #FFF6FB;
+        align-self: flex-start;
+        padding-left: 7px;
+    }
+
+    .our-place-picture {
+        width: 65%;
+        margin-bottom: 5px;
+    }
+    
 }

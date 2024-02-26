@@ -325,6 +325,11 @@ footer {
         padding: 0 10px;
         align-self: flex-start;
     }   
+
+    /* Contacts block */
+    #image-block {
+        height: 350px;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */

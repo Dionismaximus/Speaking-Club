@@ -286,6 +286,9 @@ th, td {
     color: black;
     box-shadow: none;
 }
+.input-field:hover {
+    border: 1px solid #eec3c9;
+}
 
 
 /* Footer */

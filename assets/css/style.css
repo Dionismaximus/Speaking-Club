@@ -230,9 +230,12 @@ th, td {
 
 /* Contacts */
 .contacts {
-    margin: 0 0 7px 3px;
+    margin: 5px 10px 5px 0;
+    text-align: end;
 }
-
+#contacts p {
+    text-align: center;
+}
 /* Our place page*/
 .our-place-picture {
     width: 100%;

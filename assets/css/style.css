@@ -75,11 +75,13 @@ nav {
     top: 100%;
     color: #FFF6FB;
     text-shadow: 2px 2px rgb(109, 109, 109);
+
 }
 
 #menu {
     font-size: 130%;
     list-style-type: none;
+    letter-spacing: 1px;
 }
 #menu > li {
     margin-bottom: 1rem;
@@ -364,7 +366,7 @@ footer {
         display: flex;
     }
     #menu > li {
-        padding-left: 1rem;
+        padding-left: 2rem;
     }
     .nav-toggle-label {
         display: none;
@@ -455,6 +457,9 @@ footer {
 
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
+    #menu > li {
+        padding-left: 3rem;
+    }
     #review {
         width: 80%;
         margin-left: 10%;

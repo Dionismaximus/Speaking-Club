@@ -298,7 +298,7 @@ footer {
     }
     #greetings #main-picture {
         flex-shrink: 2;
-        height: 200px;
+        height: 300px;
     }
     #greetings p {
         flex-basis: 350px;
@@ -338,7 +338,7 @@ footer {
 
     /* Main */
     #main-picture {
-        height: 340px;
+        height: 350px;
     }
 
     #motivation {
@@ -414,5 +414,14 @@ footer {
     .our-place-picture {
         width: 65%;
         margin-bottom: 5px;
+    }
+}
+
+
+/* Media query: laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    #review {
+        width: 80%;
+        margin-left: 10%;
     }
 }

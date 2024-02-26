@@ -285,6 +285,30 @@ footer {
 }
 
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    /* Join us page */
+    #join-us-form {
+        max-width: 55%;
+    }
+    /* Greetings */
+    #greetings {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #greetings #main-picture {
+        flex-shrink: 2;
+        height: 200px;
+    }
+    #greetings p {
+        flex-basis: 350px;
+        border-right: 1px solid #FFF6FB;
+        text-align: end;
+        padding: 0 7px;
+        align-self: flex-start;
+    }   
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -308,22 +332,6 @@ footer {
     }
     .nav-toggle-label {
         display: none;
-    }
-
-    /* Greetings */
-    #greetings {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    #greetings #main-picture {
-        flex-shrink: 2;
-        height: 200px;
-    }
-    #greetings p {
-        flex-basis: 350px;
-        border-right: 1px solid #FFF6FB;
-        text-align: end;
-        padding: 7px;
     }
 
 
@@ -406,5 +414,4 @@ footer {
         width: 65%;
         margin-bottom: 5px;
     }
-    
 }

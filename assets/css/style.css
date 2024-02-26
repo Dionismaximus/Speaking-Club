@@ -358,6 +358,7 @@ footer {
     h4, h5 {
         font-size: 110%;
         margin-top: 15px;
+        padding: 0 6px;
     }
     h3{
         font-size: 130%;
@@ -378,7 +379,7 @@ footer {
     }
     .review-block {
         width: 330px;
-        height: 170px;
+        height: 150px;
 
     }
     .review-block p {

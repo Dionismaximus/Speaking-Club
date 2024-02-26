@@ -27,6 +27,7 @@ h2, h3 {
 }
 h3 {
     margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 /* Header */
@@ -126,6 +127,11 @@ p {
 }
 #motivation > div {
     margin-bottom: 15px;
+}
+.shadow {
+    box-shadow: 6px 5px 5px rgb(28, 25, 25);
+    padding: 0 4px 4px 0;
+    margin-bottom: 25px;
 }
 
 /* Button join us */
@@ -305,7 +311,7 @@ footer {
         flex-basis: 350px;
         border-right: 1px solid #FFF6FB;
         text-align: end;
-        padding: 0 7px;
+        padding: 0 10px;
         align-self: flex-start;
     }   
 }
@@ -399,7 +405,7 @@ footer {
     .right-side > p {
         border-right: 1px solid #FFF6FB;
         align-self: flex-start;
-        padding-right: 7px;
+        padding-right: 10px;
     }
     .left-side {
         display: flex;
@@ -408,7 +414,7 @@ footer {
     .left-side > p {
         border-left: 1px solid #FFF6FB;
         align-self: flex-start;
-        padding-left: 7px;
+        padding-left: 10px;
     }
 
     .our-place-picture {
@@ -423,5 +429,12 @@ footer {
     #review {
         width: 80%;
         margin-left: 10%;
+    }
+    #greetings #main-picture {
+        background-position: center 40%;
+        height: 450px;
+    }
+    #motivation {
+        margin: 0 50px;
     }
 }

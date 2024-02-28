@@ -110,6 +110,7 @@ p {
     color: inherit;
     margin: 10px;
     font-size: 90%;
+    letter-spacing: 0.3px;
 }
 #main-picture {
     background: url(../images/Main-photo.jpg) no-repeat center/cover;
@@ -425,7 +426,7 @@ footer {
         margin-top: 15px;
         padding: 0 6px;
     }
-    h3{
+    h3 {
         font-size: 150%;
     }
     p {
@@ -444,11 +445,17 @@ footer {
     .review-block {
         width: 330px;
         height: 150px;
+        margin: 25px 0;
 
     }
     .review-block p {
         font-size: 90%;
     }
+    .review-name-block img {
+        width: 13vh;
+    }
+
+
     /* button-joinus  */
     #button-joinus {
         width: 30%;
@@ -488,7 +495,7 @@ footer {
         padding-left: 3rem;
     }
     #review {
-        width: 80%;
+        width: 85%;
         margin-left: 10%;
     }
     #greetings #main-picture {

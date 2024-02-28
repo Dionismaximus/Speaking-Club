@@ -124,6 +124,9 @@ p {
 }
 #motivation h4 {
     margin-top: 15px;
+    font-size: 130%;
+    letter-spacing: 0.8px;
+    color: #f5e7d2;
 }
 #motivation p {
     margin: 10px 0;

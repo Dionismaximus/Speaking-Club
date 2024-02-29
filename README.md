@@ -30,7 +30,7 @@ Users of the site can get all the necessary information about the club, venue, c
 ![Reviews section](assets/images/Reviews.png)
 
 - __Join us button__
-- Join us button takes users to a Join Us page where a potential user can apply to join the club.
+  - Join us button takes users to a Join Us page where a potential user can apply to join the club.
 ![Join us button](assets/images/join_us_button.png)
 
 - __Schedule and contacts section__
@@ -49,3 +49,25 @@ Users of the site can get all the necessary information about the club, venue, c
   - Join us page has a form where the user can send his data to join the club.
   - Form collect Name, Last Name, E-mail, Phone number and preferred messenger.
 ![Join us page](assets/images/join_us_page.png)
+
+## Testing 
+- I tested this page in different browsers. The site works fine.
+- I confirmed that this website is responsive for all type of screen.
+- I confirmed that the all pages, blocks and section are readable and easy to understand.
+- I have confirmed that the form works: requires entries in every field, will only accept e-mail in the e-mail field, and the submit button works.
+
+## Bugs
+### Solved bugs
+- After checked the code on HTML validation service that showed two errors.
+- One image has two target attribute and one image has inappropriate name that has a space.
+- Bugs have been fixed.
+
+## Validator testing
+- __HTML__
+  - No errors were return after solved two previous errros when passing through the official W3C validator
+- __CSS__
+  - No errors were return when passing through the official (Jigsaw) validator
+- __Accessibility__
+  - I confirmed that the colors and font chosen are easily to read and understand with a high contrast ratio.
+  - The website has been checked by running it through lighthouse in devtools
+![Lighthouse test results](assets/images/lighthouse_results.png)

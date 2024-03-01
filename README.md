@@ -80,12 +80,13 @@ Users of the site can get all the necessary information about the club, venue, c
   - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected< the page provided the link to the completed website
-Link to the live site here: <https://dionismaximus.github.io/Speaking-Club/index.html/>
+
+  Link to the live site here: [English Speaking Club in Cork](https://dionismaximus.github.io/Speaking-Club/index.html/)
 
 ## Credits
 ### Content
-- __The code to make the navigation toggle bar for mobile version of the website partially was taken from the Love Running Project__
+- The code to make the navigation toggle bar for mobile version of the website partially was taken from the Love Running Project
 ### Media
-- __All icons was taken from <https://fontawesome.com/>__
-- __The images except our place page was taken from <https://pexels.com/>__
-- __The photos for our place page was taken from the official The Linen Weaver - JD Wetherspoon Pub website <https://www.jdwetherspoon.com/pubs/all-pubs/republic-of-ireland/county-cork/the-linen-weaver-cork/>__
+- All icons was taken from [Font Awesome](https://fontawesome.com/)
+- The images except our place page was taken from [Pexels](https://pexels.com/)
+- The photos for our place page was taken from the official [The Linen Weaver - JD Wetherspoon Pub website](https://www.jdwetherspoon.com/pubs/all-pubs/republic-of-ireland/county-cork/the-linen-weaver-cork/)

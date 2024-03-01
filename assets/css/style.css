@@ -86,6 +86,11 @@ nav {
 #menu > li {
     margin-bottom: 1rem;
 }
+#menu a:hover {
+    border-bottom: 1px solid;
+    color: #fdf6eb;
+
+}
 
 /* Nav-toggle */
 #nav-toggle:checked~nav {

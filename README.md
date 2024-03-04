@@ -81,7 +81,7 @@ Users of the site can get all the necessary information about the club, venue, c
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected< the page provided the link to the completed website
 
-  Link to the live site here: [English Speaking Club in Cork](https://dionismaximus.github.io/Speaking-Club/index.html/)
+  Link to the live site here: [English Speaking Club in Cork](https://dionismaximus.github.io/Speaking-Club/)
 
 ## Credits
 ### Content

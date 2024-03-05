@@ -471,9 +471,13 @@ footer {
     }
 
     /* Page our place */
+    .right-side img {
+        flex-grow: 1;
+    }
     .right-side {
         display: flex;
         text-align: end;
+        
     }
     .right-side > p {
         border-right: 1px solid #FFF6FB;

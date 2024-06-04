@@ -78,9 +78,9 @@ Users of the site can get all the necessary information about the club, venue, c
 - __Accessibility__
   - I confirmed that the colors and font chosen are easily to read and understand with a high contrast ratio.
   - The website has been checked by running it through lighthouse in devtools
-![Lighthouse test results](assets/images/lighthouse_results.png "Lighthouse home page test result")
-![Lighthouse test results](assets/images/our_place_lighthouse_test.png "Lighthouse our_place page test result")
-![Lighthouse test results](assets/images/join_us_lighthouse_test.png "Lighthouse join_us page test result")
+![Lighthouse test results](assets/images/lighthouse_results.png "The result of the main page test by the lighthouse program")
+![Lighthouse test results](assets/images/our_place_lighthouse_test.png "The result of the our_place page test by the lighthouse program")
+![Lighthouse test results](assets/images/join_us_lighthouse_test.png "The result of the join_us page test by the lighthouse program")
 
 ## Deployment
 - __The site was deployed to GitHub pages. The steps to deploy are as follows:__

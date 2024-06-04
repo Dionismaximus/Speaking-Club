@@ -61,13 +61,18 @@ Users of the site can get all the necessary information about the club, venue, c
 
 ## Bugs
 ### Solved bugs
-- After checked the code on HTML validation service that showed two errors.
-- One image has two target attribute and one image has inappropriate name that has a space.
-- Bugs have been fixed.
+- After checked the code on HTML validation service that showed a few errors.
+- One image has two target attribute and all images on our_place page have inappropriate name that has a space.
+- There was a few errors with label element in join_us form.
+- All types of errors displayed in the W3 html validator have been fixed.
 
 ## Validator testing
 - __HTML__
   - No errors were return after solved two previous errros when passing through the official W3C validator
+  ![index.html page result](assets/images/html_page_validator.png "index.html page result")
+  ![our_place.html page result](assets/images/our_place_page_validator.png "our_place.html page")
+  ![join_us.html page result](assets/images/join_us_page_validator.png "join_us.html page")
+
 - __CSS__
   - No errors were return when passing through the official (Jigsaw) validator
 - __Accessibility__
